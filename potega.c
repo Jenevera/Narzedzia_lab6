@@ -1,18 +1,22 @@
 #include <stdio.h>
+#include<math.h>
 
-float wynik;
 
-void potega(float liczba)
+float potega(float liczba)
 {
-    wynik= liczba*liczba;
-    printf("%f",wynik);
+	float wynik;
+
+    wynik= pow(liczba,2);
+    return wynik;
 }
 
 int main() 
 {
+    float wynik;
     float liczba;
     printf("Podaj liczbe");
     scanf("%f",&liczba);
-    potega(liczba);
+    wynik=potega(liczba);
+    printf("%f",wynik);
     return 0;
 }
