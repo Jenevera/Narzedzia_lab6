@@ -5,7 +5,6 @@ float wynik;
 void potega(float liczba)
 {
     wynik= liczba*liczba;
-    printf("%f",wynik);
 }
 
 int main() 
@@ -14,5 +13,6 @@ int main()
     printf("Podaj liczbe");
     scanf("%f",&liczba);
     potega(liczba);
+    printf("%f",wynik);
     return 0;
 }
