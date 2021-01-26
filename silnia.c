@@ -4,3 +4,4 @@ Nowa funkcjonalosc w pliku
 Zmodyfikowana nowa funkcjonalnosc
 Kolejny update funkcji
 Poprawka
+zmiana w poprawce 1.07
